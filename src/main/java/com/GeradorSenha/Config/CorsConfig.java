@@ -13,7 +13,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowCredentials(true);
-        config.addAllowedOrigin("http://localhost:8080"); 
+        config.addAllowedOrigin("http://localhost:8081"); 
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
 
